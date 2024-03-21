@@ -1,0 +1,15 @@
+{
+    "name": "paulo/minha-app",
+    "description": "conhecendo o composer",
+    "type": "library",
+    "require-dev": {
+        "tecnickcom/tcpdf": "^6.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paulo\\MinhaApp\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
